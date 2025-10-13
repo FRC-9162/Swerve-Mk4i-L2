@@ -46,7 +46,7 @@ public final class Constants {
 
     public static final class SwerveConfigs {
       // variável que ativa o PID para controlar a orientação do robô (PID tunado no json)
-      public static final boolean headingCorrection = false;
+      public static final boolean headingCorrection = true;
       // true para correção de aceleração
       public static final boolean accelCorrection = false;
       // constante para diminuir o input do joystick (0 < multiplicadorRotacional <= 1)
